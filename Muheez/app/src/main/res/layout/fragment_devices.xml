@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DevicesFragment"
+    android:padding="32dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="There are various IoT devices, such that users tend to be a victim of information overload when trying to pick an IoT device that suits their needs. \n\n There only a few well known IoT devices and they usually fall only one or two categories. The most common IoT devices are:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="1. Google Home Voice Controller"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:src="@drawable/google_iot"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Google Home Voice Controller is a smart IoT device which allows the user to enjoy features like media, alarms, lights, thermostats, control the volume and much more functions just by their voice.
+
+\n \n Top Features: \n \n  Google home allows a user to listen to media.\n
+Let’s the user to control TV and speakers.\n
+It is capable of managing timers and alarms.\n
+It can remotely handle the volume and home lights.\n
+It helps the user to plan their day and get things done automatically."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.046"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+        <View
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/underline"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="2. Amazon Echo Plus Voice Controller"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:src="@drawable/amazon_iot"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Amazon Echo Plus voice controller is a popular and reliable IoT device. It is capable to run songs, do phone calls, set timers and alarms, ask questions, provide information, check the weather, manage to-do &amp; shopping lists, manage house instruments, and several other things. \n\n
+
+Top Features:\n\n
+
+Amazon Echo can play songs, connect to external speakers or headphones.\n
+It is capable of making calls and messaging on voice command.\n
+Amazon Echo has around 6-7 microphones, good technical specification and sound cancellation. It is capable of hearing your voice from all the directions even when songs are played.\n
+Controls compatible smart home devices including lights, plugs, and more."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"/>
+
+        <View
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/underline"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="3. Kuri Mobile Robot"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kuri_iot"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Kuri is the first sort of home robot and most popular too. It is specifically designed for entertainment. Kuri interacts with the users and captures moments all around the house daily. \n\n
+
+Top Features: \n\n
+
+Kuri has capacitive touch sensors and HD camera. \n
+It is integrated with gestural mechanics and microphones.\n
+It has heart light and speakers.\n
+It includes integrated mapping sensors and drives system.\n
+It has a good processor and a smooth charging pad."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"/>
+
+
+        <View
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/underline"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="4. August Smart Lock"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:src="@drawable/smart_lock"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="August Smart Lock has proven to be a reliable security IoT device. It allows the user to manage their doors from any location hassle-free. It helps the user to keep thieves away and family in your home. \n\n
+
+Top Features:\n\n
+
+Allows the user to know about each and every person coming and going into your home.\n
+Provides unlimited digital keys and no fear of stolen key.\n
+It gives the status updates of your door as it is properly closed or not.\n
+It has a good auto-unlock feature and as soon as the user arrives near the door it opens automatically.\n
+Easy installation and is compatible with most standard single cylinder deadbolts."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"/>
+
+        <View
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/underline"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="5. August Doorbell Cam"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/door_bell_iot"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="August Doorbell Cam is an effective IoT innovation. August Doorbell Cam allows you to answer your door from anywhere or remote location. It constantly checks your doors and also captures motion changes in your doorstep.\n\n
+
+Top Features:\n\n
+
+Doorbell Cam pairs with all August Smart Locks to easily let guests into your home. \n
+The integrated floodlight delivers clear, full-color HD video even full-color.\n
+It constantly monitors your doorstep and will click the moments leading up to a motion alert.\n
+Free 24 hour video recording.\n
+It comes with a speedy and hassle-free installation process.\n"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

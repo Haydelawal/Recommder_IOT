@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.muheez">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Muheez">
+        <activity
+            android:name=".SportsSplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IndustrialSplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activityview.CategorySevenViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CategorySevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activityview.CategorySixViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CategorySixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CategoryFiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activityview.CategoryFiveViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activityview.CategoryFourViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CategoryFourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activityview.CategoryThreeViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activityview.CategoryTwoViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CategoryThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CategoryTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activityview.CategoryOneViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CategoryOneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".All_Devices_Activity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".LazyColumnDevices" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="@string/title_activity_lazy_column_devices" -->
+        <!-- android:theme="@style/Theme.Muheez.NoActionBar" /> -->
+        <activity
+            android:name=".activity.DevicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

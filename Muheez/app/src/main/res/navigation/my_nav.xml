@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.muheez.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/navigate_to_devicesFragment"
+            app:destination="@id/devicesFragment" />
+        <action
+            android:id="@+id/navigate_to_recFragment"
+            app:destination="@id/recFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/devicesFragment"
+        android:name="com.example.muheez.fragment.DevicesFragment"
+        android:label="fragment_devices"
+        tools:layout="@layout/fragment_devices" />
+    <fragment
+        android:id="@+id/recFragment"
+        android:name="com.example.muheez.fragment.RecFragment"
+        android:label="fragment_rec"
+        tools:layout="@layout/fragment_rec" />
+</navigation>

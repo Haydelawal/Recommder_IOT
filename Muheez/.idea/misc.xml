@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/drawable/ic_psychology.xml" value="0.2890625" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/drawable/icon_devices.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_all_devices.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_five.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_five_view.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_four.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_four_view.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_one.xml" value="0.5" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_one_view.xml" value="0.33" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_seven.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_seven_view.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_six.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_six_view.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_three.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_three_view.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_two.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_category_two_view.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_devices.xml" value="0.13125" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_industrial_splash.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_main.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_second.xml" value="0.13" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/activity_sports_splash.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/dropdown_item.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/fragment_devices.xml" value="0.16004742145820983" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/fragment_holding.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/fragment_home.xml" value="0.4866412213740458" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/fragment_rec.xml" value="0.22" />
+        <entry key="..\:/Users/LAWAL/AndroidStudioProjects/Muheez/app/src/main/res/layout/list_item.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
