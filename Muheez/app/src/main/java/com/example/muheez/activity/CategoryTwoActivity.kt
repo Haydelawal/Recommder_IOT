@@ -45,7 +45,23 @@ class CategoryTwoActivity : AppCompatActivity() {
             // Second
             "Conventional toll systems are becoming rapidly outdated. With the increase in vehicles on the roads, queues at toll booths have become a common sight, not to mention the manpower needed to operate toll booths on busy highways. Whilst automated tolls, using a RFID tag, have improved the flow of traffic, further improvements have been made possible by the use of IoT technology. \n\nMany of today’s modern vehicles are equipped with IoT connectivity. A vehicle can be detected up to a kilometre away from a tolling station, correctly identified and the barrier lifted for the vehicle to pass through. Alternatively, for older vehicles, a registered smartphone could serve the same purpose, taking automatic payment from the digital wallet linked on the phone",
             //third
-            "Cars today rely on connectivity and a key part of that is many new cars are now equipped with internet connectivity, sensors and actuators, all monitoring a wide range of applications from brakes and engine to the control of tyre pressure and exhaust gas composition.\n\nIn the future, connected cars will use the in-vehicles networks, radar and cameras to help detect and communicate with one other, prevent collisions and to help promote smooth traffic flow.",
+
+            "A connected car in IoT is a vehicle with internet access and connection of devices inside and outside. There are three main IoT technologies which are actively used in cars for connection: \n\n" +
+                    "advanced telematics;\n" +
+                    "Car2X-communication;\n" +
+                    "NFC.\n\n" +
+                    "For example, with such short-range wireless technology like Near-field communication (NFC), Bluetooth and WiFi pairing has become faster and easier. Besides this, NFC also has a significant role in developing smartphone-centric solutions and new business models in the spheres of fleet management, car rental and sharing.\n" +
+                    "\n\n" +
+                    "Connected cars and the Internet of Things enable the data exchange which is carried at the following five levels:" +
+                    "\n\n" +
+                    "vehicle to infrastructure (V2I);\n" +
+                    "vehicle to vehicle (V2V);\n" +
+                    "vehicle to pedestrians (V2P);\n" +
+                    "vehicle to cloud (V2C);\n" +
+                    "vehicle to everything (V2X)." +
+                    "\n\n" +
+                    "V2X combines all the levels stated above. These connections make a significant impact on the whole advancement of the road infrastructure.",
+
 
             //fourth
              "Vehicle tracking systems are typically used within the freight segment to help companies manage their fleets effectively. They also help to monitor driver behaviour and can collect data which informs on idling time and driving style. Examples of IoT-powered functionality include:\n\n Trip scheduling \nFleet tracking \nDriving times and driver rest break scheduling \nAlerts for speeding, harsh cornering, acceleration or braking\nMonitoring of vehicle load\nDistance travelled and fuel consumption",
