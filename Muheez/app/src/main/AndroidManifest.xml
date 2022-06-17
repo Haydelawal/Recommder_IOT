@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.muheez">
+    package="com.hayde117.muheez">
 
     <application
         android:allowBackup="true"
@@ -9,69 +9,55 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Muheez">
+
         <activity
-            android:name=".SportsSplashActivity"
+            android:name="com.hayde117.muheez.activityview.CategorySevenViewActivity"
             android:exported="false" />
         <activity
-            android:name=".IndustrialSplashActivity"
+            android:name="com.hayde117.muheez.activity.CategorySevenActivity"
             android:exported="false" />
         <activity
-            android:name=".activityview.CategorySevenViewActivity"
+            android:name="com.hayde117.muheez.activityview.CategorySixViewActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.CategorySevenActivity"
+            android:name="com.hayde117.muheez.activity.CategorySixActivity"
             android:exported="false" />
         <activity
-            android:name=".activityview.CategorySixViewActivity"
+            android:name="com.hayde117.muheez.activity.CategoryFiveActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.CategorySixActivity"
+            android:name="com.hayde117.muheez.activityview.CategoryFiveViewActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.CategoryFiveActivity"
+            android:name="com.hayde117.muheez.activityview.CategoryFourViewActivity"
             android:exported="false" />
         <activity
-            android:name=".activityview.CategoryFiveViewActivity"
+            android:name="com.hayde117.muheez.activity.CategoryFourActivity"
             android:exported="false" />
         <activity
-            android:name=".activityview.CategoryFourViewActivity"
+            android:name="com.hayde117.muheez.activityview.CategoryThreeViewActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.CategoryFourActivity"
+            android:name="com.hayde117.muheez.activityview.CategoryTwoViewActivity"
             android:exported="false" />
         <activity
-            android:name=".activityview.CategoryThreeViewActivity"
+            android:name="com.hayde117.muheez.activity.CategoryThreeActivity"
             android:exported="false" />
         <activity
-            android:name=".activityview.CategoryTwoViewActivity"
+            android:name="com.hayde117.muheez.activity.CategoryTwoActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.CategoryThreeActivity"
+            android:name="com.hayde117.muheez.activityview.CategoryOneViewActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.CategoryTwoActivity"
+            android:name="com.hayde117.muheez.activity.CategoryOneActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.hayde117.muheez.activity.SecondActivity"
             android:exported="false" />
         <activity
-            android:name=".activityview.CategoryOneViewActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.CategoryOneActivity"
-            android:exported="false" />
-        <activity
-            android:name=".All_Devices_Activity"
-            android:exported="false" /> <!-- <activity -->
-        <!-- android:name=".LazyColumnDevices" -->
-        <!-- android:exported="false" -->
-        <!-- android:label="@string/title_activity_lazy_column_devices" -->
-        <!-- android:theme="@style/Theme.Muheez.NoActionBar" /> -->
-        <activity
-            android:name=".activity.DevicesActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.SecondActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.MainActivity"
+            android:name="com.hayde117.muheez.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
